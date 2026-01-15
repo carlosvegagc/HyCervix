@@ -1,6 +1,6 @@
 
-# HiCervix Repository (MATLAB)
-Repository providing tools and scripts for processing the HiCervix dataset, which consists of in-vivo hyperspectral (HS) images of the human cervix acquired during routine clinical colposcopic examinations. The goal of this repository is to support research on the non-invasive detection of precancerous and cancerous cervical lesions.
+# HyCervix Repository (MATLAB)
+Repository providing tools and scripts for processing the HyCervix dataset, which consists of in-vivo hyperspectral (HS) images of the human cervix acquired during routine clinical colposcopic examinations. The goal of this repository is to support research on the non-invasive detection of precancerous and cancerous cervical lesions.
 
 ## Overview
 
@@ -13,7 +13,8 @@ Repository providing tools and scripts for processing the HiCervix dataset, whic
 
     .
     ├── src/
-    │   ├── extractSpectralProfiles_matfile.m
+    │   ├── extractSpectralProfiles.m
+    |   ├── decompressDataset.m
     │   └── main.m
     ├── data/
     │   └── README.md
@@ -46,6 +47,8 @@ git clone https://github.com/YourUsername/YourRepoName.git
 ```
 
 2.  Open MATLAB and add the `src/` directory to the MATLAB path.
+
+3.  Decompress the dataset. When downloading the dataset from Zenodo each patient information is compressed into a ZIP file. The decompressDataset.m scripts simplifies this action by decompross
 
 3.  Edit `main.m` and set the dataset path:
 
