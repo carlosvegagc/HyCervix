@@ -48,7 +48,7 @@ git clone https://github.com/YourUsername/YourRepoName.git
 
 2.  Open MATLAB and add the `src/` directory to the MATLAB path.
 
-3.  Decompress the dataset. When downloading the dataset from Zenodo each patient information is compressed into a ZIP file. The decompressDataset.m scripts simplifies this action by decompross
+3.  Decompress the dataset. When downloading the dataset from Zenodo each patient information is compressed into a ZIP file.
 
 3.  Edit `main.m` and set the dataset path:
 
